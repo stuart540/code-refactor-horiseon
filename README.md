@@ -2,7 +2,7 @@
 
 ## Description 
 
-Refactor of Horiseon website for accessability.
+This is a refactor of the Horiseon website for accessability and search engine optimisation.
 
 
 Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
@@ -20,20 +20,13 @@ If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https:/
 If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
 
 
-## Table of Contents (Optional)
+## Screenshot
 
-If your README is very long, add a table of contents to make it easy for users to find what they need.
+![ Image of website](assets/images/stuart540.github.io_code-refactor-horiseon_.png)
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
+## Link
 
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
+https://stuart540.github.io/code-refactor-horiseon/
 
 ## Usage 
 
