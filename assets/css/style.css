@@ -67,24 +67,6 @@ p {
     font-size: 16px;
 }
 
-/* Changed .content to article  */
-article {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-/* Changed .benefits to aside  */
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
 footer {
     padding: 30px;
     clear: both;
@@ -117,19 +99,13 @@ footer {
 }
 
 /* Condensed styling of multiple selectors to reduce repetition and tidy */
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* Moved above .benefit-X to reflect the order in the html  */
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/* Changed .content to article  */
+article {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .search-engine-optimization,
@@ -143,8 +119,33 @@ footer {
     color: #ffffff;
 }
 
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+/* Condensed image class' to article img  */
+article img {
     max-height: 200px;
 }
+
+/* Changed .benefits to aside  */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Condensed image class' to aside img */
+aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
